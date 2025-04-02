@@ -1,5 +1,5 @@
 """
-DNA Sequence Analysis Algorithms
+DNA Seq Algorithms
 
 This package contains various algorithms for comparing DNA sequences.
 """

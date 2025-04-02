@@ -19,7 +19,7 @@ with open('templates/index.html', 'w') as f:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>DNA Sequence Analysis</title>
+    <title>DNA Seq</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -84,7 +84,7 @@ with open('templates/index.html', 'w') as f:
 </head>
 <body>
     <div class="container">
-        <h1>DNA Sequence Analysis</h1>
+        <h1>DNA Seq</h1>
         
         {% if messages %}
             <div class="flash-messages">
