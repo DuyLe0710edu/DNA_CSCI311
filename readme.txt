@@ -6,7 +6,7 @@ This program allows you to perform DNA sequence alignment using three different 
 - Edit Distance
 
 ## Files:
-1. `UI.py`: The main GUI for interacting with the program.
+1. `GUI.py`: The main GUI for interacting with the program. you need to 'brew install python-tk' to use that 
 2. `file_handler.py`: Handles reading and parsing FASTA files.
 3. `algorithms.py`: Contains the placeholders for the three sequence alignment algorithms.
 
