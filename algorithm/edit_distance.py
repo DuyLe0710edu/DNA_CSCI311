@@ -31,7 +31,7 @@ def edit_distance(query, database):
                     )
         return dp[m][n]
     
-    # Now apply the edit distance to the query sequence against all sequences in the database
+    # This is for my testing
     min_dist = float('inf')
     best_match = None
     
@@ -40,5 +40,4 @@ def edit_distance(query, database):
         if distance < min_dist:
             min_dist = distance
             best_match = (header, sequence)
-    
     return best_match 

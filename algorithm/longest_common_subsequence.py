@@ -31,5 +31,4 @@ def longest_common_subsequence(query, database):
         if len_current > len_max:
             len_max = len_current
             best_seq = (head, seq)
-    
     return best_seq
